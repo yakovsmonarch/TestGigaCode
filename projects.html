@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио — Яков Петров</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo">Яков</a>
+            <ul class="nav__links">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">Обо мне</a></li>
+                <li><a href="skills.html">Навыки</a></li>
+                <li><a href="projects.html" class="active">Портфолио</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+            <button class="nav__toggle" aria-label="Меню">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-section">
+            <div class="container">
+                <h1 class="page-title">Портфолио</h1>
+
+                <div class="projects-full">
+                    <article class="project-card">
+                        <div class="project-card__header">
+                            <div class="project-card__icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+                            </div>
+                            <a href="https://github.com/yakov/task-manager" target="_blank" rel="noopener" class="project-card__link" title="Открыть проект">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                            </a>
+                        </div>
+                        <h3 class="project-card__title">Task Manager Pro</h3>
+                        <p class="project-card__desc">Приложение для управления задачами с drag-and-drop, фильтрами и командной работой.</p>
+                        <div class="project-card__tags">
+                            <span class="tag">React</span>
+                            <span class="tag">TypeScript</span>
+                            <span class="tag">Firebase</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-card__header">
+                            <div class="project-card__icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+                            </div>
+                            <a href="https://github.com/yakov/weather-app" target="_blank" rel="noopener" class="project-card__link" title="Открыть проект">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                            </a>
+                        </div>
+                        <h3 class="project-card__title">Weather Dashboard</h3>
+                        <p class="project-card__desc">Интерактивная панель погоды с графиками и геолокацией.</p>
+                        <div class="project-card__tags">
+                            <span class="tag">Vue.js</span>
+                            <span class="tag">Chart.js</span>
+                            <span class="tag">API</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-card__header">
+                            <div class="project-card__icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+                            </div>
+                            <a href="https://github.com/yakov/ecommerce-template" target="_blank" rel="noopener" class="project-card__link" title="Открыть проект">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                            </a>
+                        </div>
+                        <h3 class="project-card__title">E-Commerce Template</h3>
+                        <p class="project-card__desc">Адаптивный шаблон интернет-магазина с корзиной и оформлением заказа.</p>
+                        <div class="project-card__tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">SCSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Яков Петров. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
