@@ -1,0 +1,42 @@
+{
+  "name": "Яков Петров",
+  "title": "Frontend-разработчик",
+  "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Yakov&backgroundColor=b6e3f4",
+  "bio": "Создаю современные веб-приложения с фокусом на производительность и пользовательский опыт.",
+  "email": "yakov@example.com",
+  "phone": "+7 (999) 123-45-67",
+  "location": "Москва, Россия",
+  "social": {
+    "github": "https://github.com/yakov",
+    "linkedin": "https://linkedin.com/in/yakov",
+    "telegram": "https://t.me/yakov"
+  },
+  "skills": [
+    { "name": "JavaScript", "level": 90 },
+    { "name": "TypeScript", "level": 85 },
+    { "name": "React", "level": 88 },
+    { "name": "Vue.js", "level": 75 },
+    { "name": "CSS / SCSS", "level": 92 },
+    { "name": "Node.js", "level": 70 }
+  ],
+  "projects": [
+    {
+      "title": "Task Manager Pro",
+      "description": "Приложение для управления задачами с drag-and-drop, фильтрами и командной работой.",
+      "tags": ["React", "TypeScript", "Firebase"],
+      "link": "https://github.com/yakov/task-manager"
+    },
+    {
+      "title": "Weather Dashboard",
+      "description": "Интерактивная панель погоды с графиками и геолокацией.",
+      "tags": ["Vue.js", "Chart.js", "API"],
+      "link": "https://github.com/yakov/weather-app"
+    },
+    {
+      "title": "E-Commerce Template",
+      "description": "Адаптивный шаблон интернет-магазина с корзиной и оформлением заказа.",
+      "tags": ["HTML", "SCSS", "JavaScript"],
+      "link": "https://github.com/yakov/ecommerce-template"
+    }
+  ]
+}
